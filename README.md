@@ -1,7 +1,5 @@
 # SpringBoot 项目初始模板
 
-> 作者：[程序员鱼皮](https://github.com/liyupi)
-> 仅分享于 [编程导航知识星球](https://yupi.icu)
 
 基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。
 
@@ -26,7 +24,7 @@
 - MySQL 数据库
 - Redis 内存数据库
 - Elasticsearch 搜索引擎
-- 腾讯云 COS 对象存储
+- 腾讯云 COS 对象存储  这个要钱，用minio对象存储也可以
 
 ### 工具类
 

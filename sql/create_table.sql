@@ -4,7 +4,11 @@
 
 -- 创建库
 create database if not exists my_db;
-
+INSERT INTO user (userAccount, userPassword, unionId, mpOpenId, userName, userAvatar, userProfile, userRole)
+VALUES
+    ('张三@example.com', '加密后的密码123', 'wx_zhangsan', 'mp_zhangsan', '张三', 'https://example.com/zhangsan_avatar.jpg', '热爱编程的软件工程师。', 'user'),
+    ('管理员@example.com', '管理员密码加密', null, null, '管理员', 'https://example.com/admin_avatar.jpg', '拥有完整权限的管理员。', 'admin'),
+    ('李四@example.com', '加密后的密码456', 'wx_lisi', 'mp_lisi', '李四', 'https://example.com/lisi_avatar.jpg', '热衷于创意的市场营销专家。', 'user');
 -- 切换库
 use my_db;
 
